@@ -61,3 +61,28 @@ nav>h3{
     background-color: white;
     color: black;
 }
+main{
+    max-width: 1024px;
+    margin: auto;
+}
+.why-style{
+    text-align: center;
+    width: 66%;
+    margin: 40px auto;
+}
+.part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    /* flex-direction: row-reverse; */
+}
+.half-width{
+    width: 50%;
+}
